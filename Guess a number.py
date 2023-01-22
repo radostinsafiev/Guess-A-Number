@@ -7,6 +7,7 @@ while True:
 
     if not player_input.isdigit():
         print("Invalid input. Try again...")
+        continue
 
     player_number = int(player_input)
 
